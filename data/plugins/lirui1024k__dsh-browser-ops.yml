@@ -1,5 +1,6 @@
 url: https://github.com/lirui1024k/dsh-browser-ops
 name: lirui1024k/dsh-browser-ops
+tarball: https://github.com/lirui1024k/dsh-browser-ops/releases/latest/download/dsh-browser-ops-0.2.0.tgz
 category: browser
 description:
   en: "Browser automation for DeepSeek Harness: agent-driven real-browser control (managed Chrome with an isolated persistent profile, or attach to your daily Chrome over CDP) with snapshot, click, fill and page-reading tools; records manual operation flows and replays them with variable slots to create test data on demand; ships 27 browser_* tools plus a Settings panel."
