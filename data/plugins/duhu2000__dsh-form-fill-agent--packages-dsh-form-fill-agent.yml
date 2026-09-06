@@ -1,0 +1,6 @@
+url: https://github.com/duhu2000/dsh-form-fill-agent/tree/main/packages/dsh-form-fill-agent
+name: duhu2000/dsh-form-fill-agent#dsh-form-fill-agent
+category: tools
+description:
+  en: 'Preview and fill blank XLSX cells with Qichacha registration data, confirm changes before exporting a new copy, and restore local tasks after restart.'
+  zh: 'AI填表智能体：使用企查查工商数据预览并填写 XLSX 空白单元格，确认后导出新副本，支持本地任务重启恢复。'
