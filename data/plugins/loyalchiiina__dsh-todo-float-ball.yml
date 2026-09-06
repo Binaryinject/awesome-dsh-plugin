@@ -1,0 +1,6 @@
+url: https://github.com/loyalchiiina/dsh-todo-float-ball
+name: loyalchiiina/dsh-todo-float-ball
+category: ui
+description:
+  en: 'Floating progress ball that keeps the AI agent todo checklist on screen: live done/total counts, expandable full list, per-status colors; draggable with saved position and dual-channel realtime sync.'
+  zh: '悬浮球常驻显示 AI 会话的任务清单进度：实时完成数/总数、可展开完整清单、状态颜色区分，可拖动并记忆位置，数据双路实时同步。'
