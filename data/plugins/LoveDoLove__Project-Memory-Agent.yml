@@ -1,0 +1,6 @@
+url: https://github.com/LoveDoLove/Project-Memory-Agent
+name: LoveDoLove/Project-Memory-Agent
+category: memory
+description:
+  en: "Multi-agent project memory: 8 skills that discover, verify, classify and compound repository knowledge into a single canonical AGENTS.md across Claude, Codex, OpenCode and DSH."
+  zh: 多代理项目记忆：8 个技能协同发现、验证、分类和沉淀仓库知识为单一权威的 AGENTS.md，覆盖 Claude、Codex、OpenCode 和 DSH。
