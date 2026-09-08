@@ -1967,7 +1967,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) - Opens a WSL Linux path in Windows Cursor, VS Code, or Notepad.
 - [173787247/dsh-wsl-encoding](https://github.com/173787247/dsh-wsl-encoding) - Reports PowerShell, cmd, and LANG encoding for UTF-8 versus code-page issues.
 - [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) - Injects WSL distro, Linux path mapping, /mnt/c CRLF and git caveats, and NODE_USE_ENV_PROXY into the system prompt.
-- [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) - Advises or applies allowlisted Windows portproxy for a WSL listen port.
+- [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) - Advises or applies allowlisted Windows portproxy for a WSL listen port, preferring the kit :3081 relay and launch token for local dsh UI.
 - [173787247/dsh-wsl-github](https://github.com/173787247/dsh-wsl-github) - Uses a GitHub App to report open PRs and the latest Actions run for the current repo without returning secrets.
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) - Probes nvidia-smi and GPU visibility inside WSL.
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) - Probes Windows-host Ollama, LM Studio, vLLM, and llama-server from WSL, compares ctx, and reports /v1/models apiReady versus TCP.

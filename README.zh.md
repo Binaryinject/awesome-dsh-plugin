@@ -1967,7 +1967,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) — 用 Windows 的 Cursor、VS Code 或 Notepad 打开 WSL 中的 Linux 路径。
 - [173787247/dsh-wsl-encoding](https://github.com/173787247/dsh-wsl-encoding) — 报告 PowerShell、cmd 与 LANG 编码，便于排查 UTF-8 与代码页问题。
 - [173787247/dsh-wsl-env](https://github.com/173787247/dsh-wsl-env) — 向 system prompt 注入 WSL 发行版、Linux 路径映射、/mnt/c 的 CRLF 与 git 注意点，以及 NODE_USE_ENV_PROXY。
-- [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) — 为 WSL 监听端口提供白名单 Windows portproxy 建议或应用。
+- [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) — 为 WSL 监听端口提供白名单 Windows portproxy 建议或应用；本机 dsh UI 优先用 kit 的 :3081 中继与 launch token。
 - [173787247/dsh-wsl-github](https://github.com/173787247/dsh-wsl-github) — 通过 GitHub App 查询当前仓库未关闭 PR 与最近一次 Actions，不回传密钥。
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) — 探测 WSL 内的 nvidia-smi 与 GPU 可见性。
 - [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) — 从 WSL 探测 Windows 上的 Ollama、LM Studio、vLLM 与 llama-server，比对 ctx，并报告 /v1/models 的 apiReady 与 TCP 是否打通。
