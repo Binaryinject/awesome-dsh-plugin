@@ -86,7 +86,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 
 ### UI Enhancements
 
-- [01Virex/dsh-status-rotator](https://github.com/01Virex/dsh-status-rotator) - Replaces the "Deep diving..." turn-status label with rotating meme-worthy phrases, with typewriter and gradient effects.
+- [01Virex/dsh-status-rotator](https://github.com/01Virex/dsh-status-rotator) - Rotates the dsh turn-status label through 1059 bilingual phrases with typewriter output, an animated rainbow gradient, danmaku, 12 toggleable theme packs, live placeholders and tab-title rotation. Two star packs ship disabled by default; the stargazer pack carries one phrase per stargazer, refreshed weekly by a workflow.
 - [0imzero/dsh-workspace-menu](https://github.com/0imzero/dsh-workspace-menu) - Workspace/chat context menu for the DSH home page: pin, rename, open in file explorer, archive, fork, copy, and open in a new window.
 - [0xsline/dsh-spotlight](https://github.com/0xsline/dsh-spotlight) - Keyboard-first command palette for the DSH Web UI.
 - [1010n111/dsh-about](https://github.com/1010n111/dsh-about) - Adds an "About" settings page to the DeepSeek Harness web interface, showing the running DSH version and recent release notes.
