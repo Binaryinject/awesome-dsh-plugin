@@ -1877,6 +1877,7 @@ dsh plugin --profile web add dshmarket
 - [tinqiao-oss/clawtouch-mcp#dsh-clawtouch](https://github.com/tinqiao-oss/clawtouch-mcp/tree/master/adapters/dsh/plugin) — 通过外接 USB HID 硬件做电脑控制：用一句话描述目标，视觉模型在裁剪后的窗口截图里定位，树莓派 Pico 2 驱动真实鼠标和键盘完成动作。7 个工具。Windows 支持窗口枚举、按窗口裁剪与自动抬窗；macOS 需 pyobjc 且不支持这两项；Linux 不支持。
 - [tobysunsun/dsh-code-reading-coach](https://github.com/tobysunsun/dsh-code-reading-coach) — 代码研读教练：交互式引导研读论文对应的开源代码。五段研读法（锚定论文主张、地形扫描、入口追踪、核心映射、闭环验证），自动识别并告知语言的框架与架构，适合研读 AI 论文源码。
 - [trench-xinxin/dsh-tool-lens](https://github.com/trench-xinxin/dsh-tool-lens) — 确定性 AST 代码图谱与架构治理分析工具：调用链消歧、重构爆炸半径、循环依赖审计、领域切片与全栈 API 契约追踪。
+- [TritiumWang/dsh-universal-worldbook](https://github.com/TritiumWang/dsh-universal-worldbook) — 酒馆风格的通用世界书，为最新用户消息附加一次性的提示词注入，无上下文污染。兼容酒馆世界书，关键词/正则/常驻触发，以及不污染上下文的 lore_lookup 单轮查询工具。
 - [trueRISCOacnt/maa-dsh-skill](https://github.com/trueRISCOacnt/maa-dsh-skill) — 基于 MaaAssistantArknights (MAA) 官方命令行工具 maa-cli 构建的 DeepSeek Harness Skill：让 DeepSeek Harness 直接驱动 MaaCore，自动化完成《明日方舟》日常任务。
 - [uckkk/dsh-pace-calc](https://github.com/uckkk/dsh-pace-calc) — 跑步配速计算：根据距离与时间换算配速（分/公里）与速度（公里/小时）。
 - [unclecode/toolshrink](https://github.com/unclecode/toolshrink) — 按内容语义压缩工具结果：13 个 reducer 在 tools/post-execute 阶段按含义裁剪超长输出（保留失败的测试、丢弃 diff 上下文、对 JSON 与 CSV 抽样、lint 问题按规则归类、依赖库的调用栈帧折叠、文件过多的目录只给计数），完整原文落盘保存并留一个定位符可取回。
