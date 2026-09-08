@@ -2230,6 +2230,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 
 ### Docs & Rendering
 
+- [1741505640/capmap-skills#dsh-capmap-viz](https://github.com/1741505640/capmap-skills/tree/main/dsh-capmap-viz) - CapMap docs visualization with Obsidian-style semantic graph and capability panel.
 - [3361805598-gif/dsh-md-annotator](https://github.com/3361805598-gif/dsh-md-annotator) - Markdown sidebar preview and source editor for dsh-better-sidebar, with block- and text-range annotations that can be sent to the conversation as structured revision requests.
 - [addie-ace/dsh-fullwidth-punctuation](https://github.com/addie-ace/dsh-fullwidth-punctuation) - Converts half-width punctuation in AI replies to full-width Chinese punctuation, so copied answers stay publication-ready.
 - [AKS1st/dsh-mermaid](https://github.com/AKS1st/dsh-mermaid) - Render Mermaid code fences in DSH Web chat messages as lazy-loaded SVG diagrams with strict sanitization and light/dark theme follow.
