@@ -1061,6 +1061,7 @@ dsh plugin --profile web add dshmarket
 - [penguin-oo/dsh-delegate-router](https://github.com/penguin-oo/dsh-delegate-router) — 给 DeepSeek Harness 的子代理调用做 Flash/Pro 自动分派：轻任务自动用便宜模型、重任务留在强模型，支持手动覆盖与 /delegate 会话模式。
 - [PerryLink/dsh-local-ai](https://github.com/PerryLink/dsh-local-ai) — DeepSeek Harness 的 Ollama 接入：模型管理、健康检查、基于规则的本地路由与云端回退。
 - [qjf44/dsh-plugin-thinking-api](https://github.com/qjf44/dsh-plugin-thinking-api) — 一键接入 OpenAI 兼容 API（CodeBuddy、vLLM、各类代理）并开启思考模式，绕开第三方端点以 content_filter 拒绝 developer 角色的问题。
+- [changmodel](https://github.com/qq928820655/changmodel) — 模型切换、模型能力配置、固定摘要模型、子 agent 角色路由与输入历史增强。
 - [r600a-code/dsh-swarm-router](https://github.com/r600a-code/dsh-swarm-router) — 子智能体矩阵蜂群：把异质任务路由到最合适的模型（OpenRouter 类网关 + cfgpu.com/llm/square），通过进程内子智能体或直接 LLM 调用下放，并按模型统计 token 消耗、用真实反馈驱动排名。
 - [randomix777/dsh-opencode-zen](https://github.com/randomix777/dsh-opencode-zen) — 把 OpenCode Zen 免费模型接入 DSH：8 个实时发现的免费模型，零配置无需 API key；内置持久化额度检测器，自动追踪 429 限流并显示重置倒计时。
 - [randomix777/dsh-plugin-subscriptions](https://github.com/randomix777/dsh-plugin-subscriptions) — 支持 Claude、Codex、Grok、Antigravity、OpenRouter、Agnes AI、Qwen、星火、文心一言共 9 个订阅账号的 OAuth 登录，零配置直连，内置用量看板。
