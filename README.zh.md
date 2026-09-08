@@ -1217,6 +1217,7 @@ dsh plugin --profile web add dshmarket
 - [Jesse-njx/dsh-crosstalk](https://github.com/Jesse-njx/dsh-crosstalk) — 跨会话消息：本机任意会话都可像 Claude Code 一样列出并互发消息，基于本地心跳注册表与收件箱。
 - [JohnXu22786/session-titler](https://github.com/JohnXu22786/session-titler) — 两阶段会话题词：会话进行中即时关键词题名，空闲后再调用最经济的预算模型精修，并附带一句话摘要。
 - [jueburenshu123/dsh-win-minimal](https://github.com/jueburenshu123/dsh-win-minimal) — Windows 极简模式 preset：单句 persona、三工具、无运行时上下文。
+- [jujiujiang222-cell/dsh-archive-sessions](https://github.com/jujiujiang222-cell/dsh-archive-sessions) — 归档会话管理：在设置页新增“归档会话”，列出所有已归档会话，支持恢复与二次确认后的永久删除。
 - [kaieye/dsh-AIR](https://github.com/kaieye/dsh-AIR) — DSH Web 输入框增强：跨会话召回已发送提示词、用 Ctrl+R 搜索并还原富草稿，以及提供停靠式 /btw 或 /side 旁路会话。
 - [kanchengw/dsh-assembly.resume](https://github.com/kanchengw/dsh-assembly.resume) — 将本地 Codex CLI/Desktop、Claude Code CLI 和 Claude Desktop 会话导入 DSH：按项目分组，保留语义历史和工具活动，可绑定原工作区或新工作区，并由 DSH Agent 继续对话。
 - [keepermttl/dsh-archive-viewer](https://github.com/keepermttl/dsh-archive-viewer) — DSH Web 归档会话管理器：支持标题/内容搜索、标签筛选、阅读日志、恢复会话与 ZIP 导出。
