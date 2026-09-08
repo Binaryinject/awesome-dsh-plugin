@@ -1970,7 +1970,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-expose](https://github.com/173787247/dsh-wsl-expose) — 为 WSL 监听端口提供白名单 Windows portproxy 建议或应用。
 - [173787247/dsh-wsl-github](https://github.com/173787247/dsh-wsl-github) — 通过 GitHub App 查询当前仓库未关闭 PR 与最近一次 Actions，不回传密钥。
 - [173787247/dsh-wsl-gpu](https://github.com/173787247/dsh-wsl-gpu) — 探测 WSL 内的 nvidia-smi 与 GPU 可见性。
-- [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) — 从 WSL 探测 Windows 上的 Ollama、LM Studio、vLLM 与 llama-server，并给出 baseURL。
+- [173787247/dsh-wsl-hostsvc](https://github.com/173787247/dsh-wsl-hostsvc) — 从 WSL 探测 Windows 上的 Ollama、LM Studio、vLLM 与 llama-server，比对 ctx，并报告 /v1/models 的 apiReady 与 TCP 是否打通。
 - [173787247/dsh-wsl-launch](https://github.com/173787247/dsh-wsl-launch) — 从 WSL 白名单启动 Windows 应用（如 VS Code、资源管理器、浏览器）。
 - [173787247/dsh-wsl-mnt](https://github.com/173787247/dsh-wsl-mnt) — 当工作区路径落在缓慢的 /mnt/c 上时发出告警。
 - [173787247/dsh-wsl-net](https://github.com/173787247/dsh-wsl-net) — 提供 net_doctor 工具，报告代理环境、NODE_USE_ENV_PROXY，以及 DeepSeek API 与 npm registry 的连通性，并为 bash 和 npm 子进程设置 NODE_USE_ENV_PROXY。
