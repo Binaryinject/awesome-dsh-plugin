@@ -3272,6 +3272,7 @@ dsh plugin --profile web add dshmarket
 - [januory/deepseek-harness-gateway#dsh-gateway-agent](https://github.com/januory/deepseek-harness-gateway/tree/main/plugins/dsh-gateway-agent) — 客户机接入插件：以单条出站 WebSocket 连接网关，把本机 dsh web 界面经隧道转发给门户，配对接入码 + HMAC 认证；无需入站端口、端口映射或公网 IP。
 - [januory/dsh-remote-workspaces](https://github.com/januory/dsh-remote-workspaces) — 通过 SSH 把远程主机目录作为 Harness 工作区打开：read/write/edit/grep/glob 与 shell 命令经 SFTP、ripgrep、ssh2 exec 直接在远程主机执行，不做本地镜像；多主机注册表加密存储，本地沙箱策略依然生效。
 - [Jiachi5533/dsh-remote-gateway](https://github.com/Jiachi5533/dsh-remote-gateway) — 带精确来源 IP 白名单的 HTTP/SSE/WebSocket 网关，让 DSH Web UI 在带认证反向代理后保持设置、插件与宿主机目录选择功能，并提供白名单健康检查。
+- [jixishi/dsh-adapter-qq](https://github.com/jixishi/dsh-adapter-qq) — QQ 官方单聊机器人适配器：支持交互操作板、工作区会话管理与 Web UI 实时双向同屏。
 - [JochenYang/dsh-remote#dsh-remote](https://github.com/JochenYang/dsh-remote/tree/main/dsh-remote) — 随时随地用手机操作 DSH：自托管中继 + 桌面 host 插件组成令牌认证隧道（保序 HTTP 反向代理 + WebSocket 桥接），扫码配对、管理台可管理设备与令牌，并自动注入移动适配层（聊天全宽、设置弹窗全屏、侧栏抽屉化）。
 - [jsdvjx/dshn#agent](https://github.com/jsdvjx/dshn/tree/main/packages/agent) — 把本地 dsh 网页通过带登录门禁的中继转发到公网 *.ds.hn 子域名(也可自托管到自己的域名),支持可选的端到端加密(PBKDF2 到 AES-256-GCM)。
 - [JUANWANG-BUAA/dsh-full-remote](https://github.com/JUANWANG-BUAA/dsh-full-remote) — 远程访问 DeepSeek Harness 且服务端 API 完整：转发时改写 Host/Origin，恢复其他方案必定 403 的 settings.* / credentials.* / host.listDirectory。令牌门、按设备会话、可选首访审批。
