@@ -1978,7 +1978,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) - Opens WSL Linux paths from DeepSeek Harness chat in the Windows default app or Explorer.
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) - Converts Linux and Windows paths with /mnt/c caveats for WSL.
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) - Browses WSL directories under / and /mnt for workspace picking.
-- [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) - Diagnoses WSL port listening and Windows localhost forwarding.
+- [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) - Diagnoses WSL port listening and Windows localhost forwarding, with a 3080/3081 uiPlaybook for the dsh web relay and launch token.
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) - Saves a Windows clipboard image into a WSL file.
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) - Hints how to forward the Windows OpenSSH agent into WSL without dumping keys.
 - [173787247/dsh-wsl-tray](https://github.com/173787247/dsh-wsl-tray) - Writes a Windows shortcut and script to start dsh web inside WSL.

@@ -1978,7 +1978,7 @@ dsh plugin --profile web add dshmarket
 - [173787247/dsh-wsl-open](https://github.com/173787247/dsh-wsl-open) — 把 DeepSeek Harness 聊天里的 WSL Linux 路径在 Windows 默认程序或资源管理器中打开。
 - [173787247/dsh-wsl-path](https://github.com/173787247/dsh-wsl-path) — 在 WSL 下转换 Linux 与 Windows 路径，并说明 /mnt/c 注意点。
 - [173787247/dsh-wsl-picker](https://github.com/173787247/dsh-wsl-picker) — 浏览 / 与 /mnt 下的 WSL 目录，便于挑选工作区。
-- [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) — 诊断 WSL 端口监听与 Windows localhost 转发。
+- [173787247/dsh-wsl-port](https://github.com/173787247/dsh-wsl-port) — 诊断 WSL 端口监听与 Windows localhost 转发，并对 dsh web 中继的 3080/3081 给出含 launch token 的 uiPlaybook。
 - [173787247/dsh-wsl-shot](https://github.com/173787247/dsh-wsl-shot) — 将 Windows 剪贴板中的图片保存为 WSL 文件。
 - [173787247/dsh-wsl-ssh-agent](https://github.com/173787247/dsh-wsl-ssh-agent) — 提示如何把 Windows OpenSSH agent 转发进 WSL，且不输出密钥。
 - [173787247/dsh-wsl-tray](https://github.com/173787247/dsh-wsl-tray) — 生成 Windows 快捷方式与脚本，用于在 WSL 中启动 dsh web。
