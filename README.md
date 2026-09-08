@@ -1104,6 +1104,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [zhangjunjesse/dsh-claude-driver](https://github.com/zhangjunjesse/dsh-claude-driver) - Run the main session model on a local Claude Code subscription through the official Claude Agent SDK, taking over the llm/stream route for the claude-code provider, with token-level streaming, session resume, and DSH tools bridged in over MCP so they keep DSH sandbox and approval.
 - [zhangyqjiaoshou-oss/dsh-model-sync](https://github.com/zhangyqjiaoshou-oss/dsh-model-sync) - One-click/auto sync provider model lists against /v1/models endpoint.
 - [zhubaohi/dsh-qwen38-compaction-fix](https://github.com/zhubaohi/dsh-qwen38-compaction-fix) - Compaction fix for NInfer-hosted qwen3.8-27b gateways: disables thinking on dsh context-compaction and session-title calls so xhigh reasoning stops burning the whole output budget; the same idea applies to other launch methods, this package targets NInfer only.
+- [Zn-Dk/dsh-zhipu-toolkit](https://github.com/Zn-Dk/dsh-zhipu-toolkit) - Dual-endpoint Zhipu BigModel GLM provider catalog (Coding Plan and ordinary API) with live model discovery, live-tested thinking-tier mapping, and a settings card for keys, endpoints and the default reasoning tier.
 
 ### Identity & Communication
 
