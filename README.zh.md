@@ -1415,6 +1415,7 @@ dsh plugin --profile web add dshmarket
 - [ljsysfurryACE/dsh-compaction](https://github.com/ljsysfurryACE/dsh-compaction) — 压缩后端：用确定性语义提取器替换 LLM 摘要（保留代码/路径/命令，剔除闲聊），附带 28.4x KV 压缩记账。
 - [ljsysfurryACE/dsh-memory-director](https://github.com/ljsysfurryACE/dsh-memory-director) — LLM 驱动的记忆记/忘插件：每轮对话后由模型决定记住什么/忘记什么（MemoryDirector），请求前注入相关记忆，自动去重，跨会话持久化。
 - [LoserFox/distill](https://github.com/LoserFox/distill) — 自动对话蒸馏：后台 subagent 反省 + 技能 create/update。
+- [LoveDoLove/Project-Memory-Agent#dsh-plugin](https://github.com/LoveDoLove/Project-Memory-Agent/tree/main/dsh-plugin) — DSH 插件：挂载 8 个 Project Memory 技能，首次使用时引导记忆架构初始化，并注册 codebase-memory 桥接工具。
 - [lovezi0/dsh-memory-palace](https://github.com/lovezi0/dsh-memory-palace) — 人类可读的 Markdown 记忆插件：用户级（~/.deepseek-harness/MEMORY.md）+ 工作区级双层记忆，每轮自动注入提示词，回合结束自动写日志并按期蒸馏沉淀；可桥接已有 WorkBuddy/CodeBuddy 记忆目录；内置 memory_note / memory_note_user / memory_read 三个工具（自动去重）与中英双语设置页。纯文件存储、无数据库，记事本即可编辑。
 - [Luisarg03/dsh-memory-vault#memory-auto](https://github.com/Luisarg03/dsh-memory-vault/tree/main/packages/memory-auto) — 会话记忆自动驾驶：监听 DSH 会话，在会话结束与压缩前通过宿主 LLM（ctx.llm，默认 deepseek-official）就地抽取 OKF 条目，无需外部 API Key。
 - [Luisarg03/dsh-memory-vault#memory-mcp](https://github.com/Luisarg03/dsh-memory-vault/tree/main/packages/memory-mcp) — 经 MCP stdio 把 Agent 接入持久化 OKF 记忆库：Python 服务端（SQLite FTS5 + Markdown），10 个工具用于检索与写入决策、事实和偏好。
