@@ -116,11 +116,28 @@ jobs:
               const runs = new Map()
               for (const s of commit.checkSuites.nodes)
                 for (const r of s.checkRuns.nodes) if (!runs.has(r.name)) runs.set(r.name, r.conclusion)
-              // Both gates must be green. `Submission gate` reporting NEUTRAL
-              // is fail-open from an exhausted App quota, not a pass, so it is
-              // excluded here the same way it is excluded from a merge.
-              if (runs.get('check') !== 'SUCCESS') continue
+              // `Submission gate` is the check that actually judges the
+              // submission, and it must be green. NEUTRAL is fail-open from an
+              // exhausted App quota, not a pass, so it is excluded here the
+              // same way it is excluded from a merge.
               if (runs.get('Submission gate') !== 'SUCCESS') continue
+
+              // `check` is reported, NOT required. Requiring it hid the
+              // largest recoverable group in the queue: 21 held pull requests
+              // whose only red was the `READMEs match data/plugins` step —
+              // their branch carries a README snapshot taken before some later
+              // merge. Since #3832 the READMEs are generated on `main` and the
+              // maintainer regenerates them while merging, so that failure is
+              // an artefact of the branch being old, not something the author
+              // did or can usefully fix. Excluding those PRs meant an author
+              // could address every real objection and still never resurface.
+              //
+              // A red `check` can also mean awesome-lint or the stale-fork
+              // guard, which the author does have to fix — so the state is
+              // shown in its own column rather than silently filtered. This
+              // list is for human triage; over-inclusion costs a glance,
+              // silent exclusion costs weeks.
+              const check = runs.get('check') ?? 'none'
 
               // Last application of the label, so that a hold re-applied
               // after a first round of fixes restarts the clock rather than
@@ -152,6 +169,7 @@ jobs:
                 moved: new Date(movedAt).toISOString().slice(0, 10),
                 days: Math.floor((Date.now() - movedAt) / 86400000),
                 pings,
+                check,
               })
             }
 
@@ -164,20 +182,25 @@ jobs:
             const body = [
               MARKER,
               '',
-              'Open pull requests that are **green on both checks**, still carry `held: author`,',
-              'and have had a push or an author comment **since the last maintainer comment**.',
+              'Open pull requests with a green `Submission gate` that still carry `held: author`',
+              'and have had a push or an author comment **since the label was applied**.',
               '',
               'Being listed here is not a verdict — it means the author believes the hold is',
               'addressed and nobody has re-read it yet. The label is never removed automatically:',
               'only a re-review can retire it. This list exists so the re-review starts from a',
               'list instead of from memory.',
               '',
+              'The `check` column is informational. A red `check` is most often just the',
+              '`READMEs match data/plugins` step on a branch whose README snapshot predates a',
+              'later merge — the maintainer regenerates those while merging, so it is not the',
+              'author\'s to fix. It can also be awesome-lint or the stale-fork guard, which are.',
+              '',
               rows.length
                 ? [
-                    '| PR | author | held since | moved | waiting | pings |',
-                    '|---|---|---|---|---|---|',
+                    '| PR | author | held since | moved | waiting | pings | check |',
+                    '|---|---|---|---|---|---|---|',
                     ...rows.map((r) =>
-                      `| [#${r.number}](${r.url}) ${r.title.replace(/\|/g, '\\|').slice(0, 60)} | @${r.author} | ${r.held} | ${r.moved} | ${r.days}d | ${r.pings} |`),
+                      `| [#${r.number}](${r.url}) ${r.title.replace(/\|/g, '\\|').slice(0, 60)} | @${r.author} | ${r.held} | ${r.moved} | ${r.days}d | ${r.pings} | ${r.check === 'SUCCESS' ? '✅' : '⚠️ ' + r.check.toLowerCase()} |`),
                   ].join('\n')
                 : '_Nothing is waiting — every held pull request is still waiting on its author._',
               '',

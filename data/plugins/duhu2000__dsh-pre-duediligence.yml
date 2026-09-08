@@ -1,0 +1,6 @@
+url: https://github.com/duhu2000/dsh-pre-duediligence
+name: duhu2000/dsh-pre-duediligence
+category: workflow
+description:
+  en: 'Prepare a session-scoped enterprise pre-visit due-diligence brief in DeepSeek Harness, with explicit entity confirmation and tool-call budget approval for Qichacha MCP queries.'
+  zh: '在 DeepSeek Harness 中按会话准备企业访前尽调简报，并在调用企查查 MCP 前要求明确的主体确认和工具调用预算授权。'
