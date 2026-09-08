@@ -3101,6 +3101,7 @@ dsh plugin --profile web add dshmarket
 - [xswt442-cmd/dsh-instance-manager](https://github.com/xswt442-cmd/dsh-instance-manager) — 侧边栏实例管理面板：统一列出本机 3080–3129 端口的全部 dsh web 实例（端口、PID、运行时长、会话数），一键启动或优雅停止任意实例，含当前实例的任务管理器式停止。
 - [xswt442-cmd/dsh-treekeeper](https://github.com/xswt442-cmd/dsh-treekeeper) — 将 DSH 宿主的 Windows 进程树与可用任务账本对照，标出未归属和孤儿进程，并提供受保护的进程树终止。
 - [xxiaoxiong/dsh-prometheus](https://github.com/xxiaoxiong/dsh-prometheus) — 导出有界的 DSH Session、Agent、LLM、Tool、Approval、Subagent 与 Job Prometheus 指标，附带 Grafana 仪表盘，Endpoint 默认仅监听回环地址。
+- [yminghua/dsh-plugin-compare](https://github.com/yminghua/dsh-plugin-compare) — 对比已有 DSH 会话，或在两套 Agent Preset 之间运行受控 A/B 试验，展示对齐时间线、配对指标差值、显式验收结果与可导出的报告。
 - [yongshuai0314/dsh-readcache](https://github.com/yongshuai0314/dsh-readcache) — 为 DSH read 工具提供版本令牌校验的进程内结果缓存：未变更文件的重复读取跳过文件 I/O 与行渲染，附带 readcache 工具查看统计与清空。
 - [young-tim/dsh-profile-lab](https://github.com/young-tim/dsh-profile-lab) — 运行可复现的 DSH Profile 与 Patch 实验，并提供引导式用例构建、断言、Web 对比报告、恢复和策略门禁。
 - [YTxue/dsh-skill-manager-ytxue](https://github.com/YTxue/dsh-skill-manager-ytxue) — 设置侧边栏的 Skill 管理器：池与启用目录启停、文件夹批量导入（重名询问）、状态驱动一键规范检查与自动修复、系统级/项目级来源标识。
