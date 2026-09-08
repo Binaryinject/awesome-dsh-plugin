@@ -1962,7 +1962,7 @@ A listing isn't permanent either: entries whose repos go away, stop being mainta
 - [173787247/dsh-wsl-cred](https://github.com/173787247/dsh-wsl-cred) - Safe Git Credential Manager hints for WSL without exposing secrets.
 - [173787247/dsh-wsl-distro](https://github.com/173787247/dsh-wsl-distro) - Reports the current WSL distro and warns about multi-distro setups.
 - [173787247/dsh-wsl-dns](https://github.com/173787247/dsh-wsl-dns) - Compares WSL versus Windows DNS resolution for common endpoints.
-- [173787247/dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) - Reports Docker CLI, context, and daemon reachability inside WSL.
+- [173787247/dsh-wsl-docker](https://github.com/173787247/dsh-wsl-docker) - Reports Docker CLI, context, and daemon reachability in WSL, plus vLLM :8000 /v1/models health and GPU runtime hints.
 - [173787247/dsh-wsl-download](https://github.com/173787247/dsh-wsl-download) - Lists or copies files from the Windows Downloads folder into the WSL workspace.
 - [173787247/dsh-wsl-editor](https://github.com/173787247/dsh-wsl-editor) - Opens a WSL Linux path in Windows Cursor, VS Code, or Notepad.
 - [173787247/dsh-wsl-encoding](https://github.com/173787247/dsh-wsl-encoding) - Reports PowerShell, cmd, and LANG encoding for UTF-8 versus code-page issues.
