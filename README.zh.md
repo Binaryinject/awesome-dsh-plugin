@@ -1379,6 +1379,7 @@ dsh plugin --profile web add dshmarket
 - [Co-Engram/Co-Engram#dsh-plugin](https://github.com/Co-Engram/Co-Engram/tree/main/packages/dsh-plugin) — 自进化团队记忆，以纯 Markdown 存于 Git：原生 Cordis 插件注册 38 个裸名记忆工具，并按每次组装动态注入 prompt-signals 段；含 RPE 强化、衰减与睡眠巩固；与 Claude Code（MCP）、OpenClaw 宿主共享同一数据仓；已对 DSH 0.1.0-rc.6 实测。
 - [DamonKoy/dsh-plugins#dsh-memories](https://github.com/DamonKoy/dsh-plugins/tree/main/packages/dsh-memories) — 项目作用域持久化键值记忆：set/get/list/delete/search 模型工具，JSON 文件存储。
 - [Dayi-Z/memoripo](https://github.com/Dayi-Z/memoripo) — DeepSeek Harness 长记忆工作台：7 日增长曲线、召回热度与时间线一目了然，支持知识页面与后台任务管理；本地 Hindsight daemon 由插件自动拉起。
+- [dearbld/dsh-living-memory](https://github.com/dearbld/dsh-living-memory) — 单文件本地 SQLite 的自整理活记忆——夜巡引擎自动去重、合并、衰减、建链，七信号 RRF 混合检索（FTS5+jieba 中文优先分词、可选向量 KNN、图谱 PPR），带类型知识图谱，冲突检测标记矛盾而非静默覆写，Web 遥测面板。
 - [dennisrongo/dsh-plugins#dsh-memory](https://github.com/dennisrongo/dsh-plugins/tree/main/plugins/dsh-memory) — /remember 命令将事实写入 dsh 已加载的 AGENTS.md 指令层级，并配有 Memory 标签页，显示加载器在字节预算内实际保留了哪些指令。
 - [detongz/dsh-client-ui-obsidian-memory](https://github.com/detongz/dsh-client-ui-obsidian-memory) — 基于本地 Obsidian/Codex 知识库的持久 AI 记忆：5 个 obsidian_memory_* 读写搜索工具，外加侧边栏知识库浏览器。
 - [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) — 近期对话保持清晰，久远记忆逐渐化为摘要，而不是消失。StrataGate 为 DeepSeek Harness 带来六层时间衰减记忆，并将长期事件与关系沉淀进知识图谱。还可以把其他 AI 中的已有记忆一起带过来，不必从头开始。
